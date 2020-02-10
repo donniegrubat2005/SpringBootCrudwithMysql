@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
+<jsp:include page="includes/header.jsp"></jsp:include>
 <title>Add Employee</title>
 </head>
 <h1>Create Employee</h1>
@@ -30,10 +30,12 @@
 			<tr>
 				<td><form:label path="address">Address</form:label>
 				<td><form:input path="address" class="form-control" /></td>
+				
 			</tr>
 			<tr>
-				<td colspan="1" align="left"><input type="submit" value="Save"/></td>
+			<td colspan="2"><input type="submit" value="Save" class="btn btn-primary"/></td>
 			</tr>
+			
 		</table>
 	
 	 </form:form>
